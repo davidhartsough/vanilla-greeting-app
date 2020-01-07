@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(208, 8%, 99%);
+  color: hsla(232, 16%, 8%, 0.96);
+  box-sizing: border-box;
+  font-weight: 400;
+  font-weight: normal;
+  font-kerning: normal;
+  -webkit-text-size-adjust: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+main {
+  display: block;
+  margin: 0 auto 4rem;
+  max-width: 29rem;
+}
+section {
+  padding: 0 1rem;
+}
+header {
+  padding: 1rem 0;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 300;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+label {
+  display: block;
+  margin: 0 0.5rem 0 0;
+  height: 2rem;
+  line-height: 2rem;
+}
+input {
+  display: block;
+  height: 2rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+  width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  overflow: visible;
+}
+input:focus {
+  border-color: #146eeb;
+}
+.form {
+  display: flex;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: left;
+  width: 50%;
+}

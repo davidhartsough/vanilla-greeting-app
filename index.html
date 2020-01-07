@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>The Vanilla Greeting App</title>
+    <meta
+      name="description"
+      content="This is the Vanilla Greeting App. It will greet you in 10 different languages (formally and informally)."
+    />
+    <meta
+      name="keywords"
+      content="vanilla, greeting, app, greet, languages, formal, informal, hello, hey"
+    />
+    <meta name="author" content="David Hartsough" />
+    <link
+      rel="canonical"
+      href="https://davidhartsough.com/vanilla-greeting-app"
+    />
+    <meta property="og:title" content="The Vanilla Greeting App" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://davidhartsough.com/vanilla-greeting-app"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      property="og:description"
+      content="This is the Vanilla Greeting App. It will greet you in 10 different languages (formally and informally)."
+    />
+    <meta property="og:site_name" content="The Vanilla Greeting App" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "The Vanilla Greeting App",
+        "url": "https://davidhartsough.com/vanilla-greeting-app",
+        "headline": "The Vanilla Greeting App",
+        "keywords": "vanilla, greeting, app, greet, languages, formal, informal, hello, hey",
+        "description": "This is the Vanilla Greeting App. It will greet you in 10 different languages (formally and informally).",
+        "author": {
+          "@type": "Person",
+          "name": "David Hartsough"
+        }
+      }
+    </script>
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="The Vanilla Greeting App" />
+    <meta name="theme-color" content="#198bed" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="The Vanilla Greeting App"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-TileColor" content="#198bed" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <header>
+          <h1>The Vanilla Greeting App</h1>
+        </header>
+        <div class="form">
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            id="name"
+            value="Steve"
+            onchange="handleNameChange(this.value)"
+          />
+        </div>
+        <hr />
+        <table>
+          <thead>
+            <tr>
+              <th>Language</th>
+              <th>Greeting</th>
+            </tr>
+          </thead>
+          <tbody id="output"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
